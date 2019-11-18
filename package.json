@@ -1,0 +1,28 @@
+{
+  "name": "agronault.ds",
+  "version": "0.0.1",
+  "description": "Simple Node.js scraping application for DECOM (CEFET-MG)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agronault/DECOM-Scraper.git"
+  },
+  "keywords": [
+    "scraper"
+  ],
+  "author": "Agronault <xande.luis@hotmail.com> (http://agronault.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agronault/DECOM-Scraper/issues"
+  },
+  "homepage": "https://github.com/Agronault/DECOM-Scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^2.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
